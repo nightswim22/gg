@@ -1,0 +1,48 @@
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+
+}
+.bg-image{
+    height: 85vh;
+ }
+ 
+
+ @include media-breakpoint-down(lg) {
+    .bg-image{
+        height: 50vh;
+     }
+
+ }
+
+ @include media-breakpoint-down(md) {
+    #background-video { display: none;
+     }
+  
+    .bg-image {
+        background-image: url(../images/river.jpg);   
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+ }
+
+
+
+
+//contactinfomation
+
+.contact-bg-image {
+    background-image: url(../images/river.jpg);   
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contact-bg-liner{
+    background-image:  linear-gradient(180deg, rgba(0, 0, 0, 0), rgb(0, 0, 0))
+
+}

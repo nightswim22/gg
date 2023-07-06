@@ -1,0 +1,41 @@
+.slick-slide {
+    margin: 0px 10px;
+
+// add card heighht
+    height: auto !important;
+    display: flex !important; 	justify-content: center; 	align-items: center;
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+.slick-prev:before,
+.slick-next:before {
+color: $gisblue!important;
+font-size: 45px!important;
+ 
+
+}
+
+
+
+// add card heighht
+.slick-track
+{
+    display: flex !important;
+}
+
+
+
+.slick-prev{
+
+  left:-45px!important;
+}
+
+.slick-dots{
+
+position:static!important;
+
+}
+
