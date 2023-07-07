@@ -12522,6 +12522,22 @@ body {
     left: 65%;
   }
 }
+[data-aos=new-animation] {
+  opacity: 0;
+  transition-property: transform, opacity;
+}
+[data-aos=new-animation].aos-animate {
+  opacity: 1;
+}
+@media screen and (min-width: 768px) {
+  [data-aos=new-animation] {
+    transform: translateX(100px);
+  }
+  [data-aos=new-animation].aos-animate {
+    transform: translateX(0);
+  }
+}
+
 .img-hover-zoom {
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
