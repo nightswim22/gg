@@ -12538,6 +12538,10 @@ body {
   }
 }
 
+.animate-hiddle {
+  overflow-x: hidden;
+}
+
 .img-hover-zoom {
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
