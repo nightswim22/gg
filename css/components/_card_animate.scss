@@ -24,6 +24,21 @@
   
  }
 
+
+
+
+ @include media-breakpoint-down(sm) {
+  .research_card_sm:hover{
+
+ 
+    .img-hover-zoom img {
+    
+      transform: none;
+    }
+    
+   }
+  
+}
  
 
 //flipcard 

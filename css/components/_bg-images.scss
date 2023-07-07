@@ -46,3 +46,9 @@
     background-image:  linear-gradient(180deg, rgba(0, 0, 0, 0), rgb(0, 0, 0))
 
 }
+
+@include media-breakpoint-down(sm) {
+    .contact-bg-image {
+        background-attachment:scroll;
+    }
+ }
