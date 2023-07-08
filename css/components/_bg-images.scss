@@ -13,7 +13,7 @@
 
  @include media-breakpoint-down(lg) {
     .bg-image{
-        height: 50vh;
+        height: 50vw;
      }
 
  }
@@ -27,6 +27,7 @@
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
+        height: 80vw;
     }
  }
 

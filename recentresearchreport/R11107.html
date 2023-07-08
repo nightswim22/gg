@@ -42,8 +42,13 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-before-scroll shadow-0 " id="main-navbar">
         <div class="container-fluid ">
             <a class="navbar-brand d-flex align-items-center" href="../index.html">
-                <div class="bg-white rounded-5" style="padding: 1px;"><img src="../images/logo.png"
-                        alt="臺灣海洋大學地理資訊系統研究中心icon" class="img-fluid " height="40" width="40"></div>
+                <div class="bg-white rounded-5" style="padding: 1px;">
+                    <picture>
+                        <source srcset="../images/logo.webp" type="image/webp" />
+                        <img src="../images/logo.png" alt="臺灣海洋大學地理資訊系統研究中心icon" class="img-fluid " height="40"
+                            width="40">
+                    </picture>
+                </div>
 
                 <div class="d-block d-xl-flex ps-2">
                     <p class="mb-0 fs-6 fs-sm-5 ">國立臺灣海洋大學</p>
@@ -64,13 +69,13 @@
                     </li>
 
                     <li class="nav-item dropdown open px-3 px-lg-0 ">
-                        <a class="nav-link  dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link  dropdown-toggle " href="#" id="centerintroduce_navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-building-user fa-fw"></i>
                             中心介紹
                         </a>
                         <ul class="dropdown-menu border-0 shadow-lg py-0 mt-0  mt-lg-1"
-                            aria-labelledby="navbarDropdown">
+                            aria-labelledby="centerintroduce_navbarDropdown">
                             <li class="border-bottom border-1 border-primary"><a class="dropdown-item py-2 px-4"
                                     href="../introduction.html">中心簡介</a></li>
                             <li class="border-bottom border-1 border-primary"><a class="dropdown-item py-2 px-4 "
@@ -85,13 +90,13 @@
                     </li>
 
                     <li class="nav-item dropdown  px-3 px-lg-0">
-                        <a class="nav-link  dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link  dropdown-toggle " href="#" id="research_navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-trophy fa-fw"></i>
                             重要成果
                         </a>
                         <ul class="dropdown-menu  border-0 shadow-lg py-0 mt-0 mt-lg-1"
-                            aria-labelledby="navbarDropdown">
+                            aria-labelledby="research_navbarDropdown">
                             <li class="border-bottom border-1 border-primary"><a class="dropdown-item py-2 px-4"
                                     href="../calendaryearplan.html">歷年計畫</a></li>
                             <li class="border-bottom border-1 border-primary"><a class="dropdown-item py-2 px-4"
@@ -114,7 +119,6 @@
             </div>
         </div>
     </nav>
-
 
 
     <header class="header-page  "
@@ -145,15 +149,23 @@
                     配合中央氣象局長程計畫方向之需求，本研究使用日本氣象同步衛星向日葵8號所反演之海表溫資料，透過人工智慧方法重建雲下海表溫，發展濾除離群值的時間-空間輻狀基底神經網路(OF-TS-RBFNN)，並與另兩種重建方法DINEOF與時間-空間輻狀基底函數神經網路(TS-RBFNN)之重建結果比較。結果顯示，OF-TS-RBFNN所重建海表溫之誤差明顯低於其他兩者，改善幅度與離群值面積比例有關，且發現許多細小的離群值區域發生在雲層附近，在濾除這些離群值後對整體結果有所改善。
                 </p>
                 <figure class="text-center my-5">
-                    <img src="../images/R11107/p1.png" class="figure-img img-fluid rounded mx-auto d-block"
-                        alt="「大洋區域於2020/08/07之(a)衛星觀測及利用(b)TS-RBFNN與(c)OF-TS-RBFNN重建之海表溫及差異" width="840" height="343">
+                    <picture>
+                        <source srcset="../images/R11107/p1.webp" type="image/webp" />
+                        <img src="../images/R11107/p1.png" class="figure-img img-fluid rounded mx-auto d-block"
+                            alt="「大洋區域於2020/08/07之(a)衛星觀測及利用(b)TS-RBFNN與(c)OF-TS-RBFNN重建之海表溫及差異" width="840"
+                            height="343">
+                    </picture>
                     <figcaption class="figure-caption fs-5">圖1
                         大洋區域於2020/08/07之(a)衛星觀測及利用(b)TS-RBFNN與(c)OF-TS-RBFNN重建之海表溫及差異</figcaption>
                 </figure>
                 <figure class="text-center my-5">
-                    <img src="../images/R11107/p2.png" class="figure-img img-fluid rounded mx-auto d-block"
-                        alt="大洋區域DINEOF(藍線)、TS-RBFNN(紅線)及OF-TS-RBFNN(黃線)於2020/08所重建的逐日海表溫與衛星觀測值之誤差" width="800"
-                        height="600">
+
+                    <picture>
+                        <source srcset="../images/R11107/p2.webp" type="image/webp" />
+                        <img src="../images/R11107/p2.png" class="figure-img img-fluid rounded mx-auto d-block"
+                            alt="大洋區域DINEOF(藍線)、TS-RBFNN(紅線)及OF-TS-RBFNN(黃線)於2020/08所重建的逐日海表溫與衛星觀測值之誤差" width="800"
+                            height="600">
+                    </picture>
                     <figcaption class="figure-caption fs-5">圖2
                         大洋區域DINEOF(藍線)、TS-RBFNN(紅線)及OF-TS-RBFNN(黃線)於2020/08所重建的逐日海表溫與衛星觀測值之誤差</figcaption>
                 </figure>
