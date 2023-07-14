@@ -13245,7 +13245,7 @@ body {
   position: absolute;
   width: 128px;
   height: 128px;
-  background: url(/images/info2.png);
+  background: url(../images/info2.png);
   background-repeat: no-repeat;
 }
 
@@ -13300,7 +13300,9 @@ body {
     display: none;
   }
 }
-.cloud, .cloud_two, .cloud_three {
+.cloud,
+.cloud_two,
+.cloud_three {
   animation: move 6s ease infinite;
   border-radius: 50%;
   position: absolute;
